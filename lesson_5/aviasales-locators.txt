@@ -1,0 +1,44 @@
+Локатор логотипа (html-елемент, содержащий в себе значок и слово "авиасейлс"):
+1. Лучший локатор, созданный под теститорание судя по названию:
+    $$('[data-test-id="logo"]')
+2. Достаточно ещё по классу:
+    $$(".s__PcdUOp87I1e0rHSKIZrv")
+3. Иногда требуется перечислить все классы локатора для выхода на универсальные локатор (кое какие классы могут повторяться):
+    $(".s__PcdUOp87I1e0rHSKIZrv.s__hUp61OcxhZaQr3w4wYv9.s__sBh_0LtGspeoixytMYZg.s__kyQZdK3QHkNkIMKAtKUv.s__th_qVj2Jb9OfZ7IKY6QD.s__NUmLvwf1WR31dqrJs__G")
+
+
+Локатор поля Откуда:
+    $("#avia_form_origin-input")
+
+
+Локатор поля Куда:
+    $("#avia_form_destination-input")
+
+
+Локатор поля Когда:
+1. Достаточно:
+    $$(".s__QOH8_RMDyCm4BxeyrqOt")
+2. Иногда требуется перечислить все классы локатора для выхода на универсальные локатор (классы 1, 2 и 4 повторяются в других элементах):
+    $(".s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__QOH8_RMDyCm4BxeyrqOt.s__OIqaFwbhkZg2cIA5d0zJ")
+
+
+Локатор поля Обратно:
+1. Достаточно:
+    $$(".s__qO2qUuaHHBMsAgKGqoWL")
+2. Иногда требуется перечислить все классы локатора для выхода на универсальные локатор (классы 1, 2 и 4 повторяются в других элементах):
+    $(".s__iUCZVK_7pftNPmX5zeoS.s__IwBVpRef_1GpuUeZuKUL.s__qO2qUuaHHBMsAgKGqoWL.s__OIqaFwbhkZg2cIA5d0zJ")
+
+
+Локатор чек-бокса "Открыть Ostrovok.ru в новой вкладке":
+    $$(".s__BGUqp9s2kxbNEnDjdIYc")
+
+
+Локатор кнопки Найти билеты:
+1. Лучший локатор, созданный под теститорание судя по названию:
+    $$('[data-test-id="form-submit"]')
+2. Достаточно ещё по классу: 
+    $$(".s__tkvB9amX28GXeWxPcrad")
+    или
+    $$(".s__VtKkhjd_g3s0MVyvRx1g")
+3. Иногда требуется перечислить все классы локатора для выхода на универсальные локатор (классы 1, 2, 4 и 5 повторяются в других элементах):
+    $(".s__pYAhaCkOP9mPTxKVg5Qi.s__cQ6neS4ccCunOu9Ydn0k.s__tkvB9amX28GXeWxPcrad.s__eEClvAD7BnPrQbwBW5zC.s__p0epgEYgBbKyjc8MfJPw.s__VtKkhjd_g3s0MVyvRx1g")
